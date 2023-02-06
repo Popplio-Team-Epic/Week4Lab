@@ -14,8 +14,12 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
-        <p>Title: Sample</p>
-        <p>Contents:</p>
-        <p>Sample 2</p>
+        <form action="note" method="post">
+            <p>Title: </p> <input type="text" name="title" value="${note.title}">
+
+            <p>Contents: </p>
+            <input type="text" name="title" value="${note.contents}">
+        </form>
+        <input type="submit" value="Save">
     </body>
 </html>
